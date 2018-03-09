@@ -1,0 +1,34 @@
+$ git config --global user.name "Nikola Babamov"
+$ git config --global user.email nikoa.babamov@yahoo.com
+$ mkdir store
+$ cd store
+$ git init
+$ git status
+$ git add l1.txt
+$ git commit - "Initial commit"
+$ git status
+$ git add l1.txt
+$ git commit -m "modify l1.txt"
+$ git remote add origin https://github.com/Alokin12/begin.git
+$ git remote -v
+$ git push -u origin master
+$ git reset --hard HEAD^
+$ git branch logging
+$ git checkout logging
+$ git log
+$ git add log.txt
+$ git commit -m "Adding branch logging"
+$ ls
+$ git push -u origin logging
+$ git checkout master
+$ git merge logging
+$ git branch -d logging
+$ git push -u origin master
+$ git branch allcomands
+$ git checkout allcomands
+$ git add commands.txt
+$ git commit -m "All commands"
+$ git push -u origin allcomands
+$ git rebase master
+$ git checkout master
+$ git push -u origin master
