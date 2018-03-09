@@ -1,0 +1,5 @@
+commit aad893b8baab20544a9f64149adf83c6ceb11e44 (HEAD -> logging, master)
+Author: Nikola Babamov <nikola.babamov@hotmail.com>
+Date:   Fri Mar 9 16:08:54 2018 +0100
+
+    Initial commit
